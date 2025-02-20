@@ -1,0 +1,673 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v29-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v29-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v29-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v29-latin-700.woff2') format('woff2');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    background-color: #1C1C1C;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* HEADER START */
+
+.header {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.header-container {
+    display: flex
+}
+
+.sitenav {
+    padding-top: 10px;
+
+}
+
+.car {
+    padding-right: 36px;
+}
+
+.sitenav-list {
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+}
+
+.sitenav-link {
+    color: #FFFFFF;
+}
+
+.tel-number {
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin-left: auto;
+}
+
+.dark-mode {
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 16px;
+}
+
+.btn {
+    display: flex;
+    padding: 18px 30px;
+    border-radius: 100px;
+    background-color: #299764;
+    color: #fff;
+    border: none;
+}
+
+.chiziq {
+    border: 1.5px solid #333333;
+    margin-top: 36px;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.main {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main-container {
+    background-image: url("../images/malibu.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.main-container h2 {
+    padding-top: 60px;
+}
+
+.compact {
+    font-size: 36px;
+    line-height: 43.5px;
+}
+
+.rent {
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.input {
+    width: 600px;
+    padding: 22px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 328px;
+}
+
+.input::placeholder {
+    font-size: 18px;
+    color: #555555;
+}
+
+
+
+.car-max {
+    margin-top: 100px;
+}
+
+.car-mini {}
+
+.only {}
+
+.only h2 {
+    font-size: 36px;
+    line-height: 43.88px;
+}
+
+.only p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.btn-lorem {
+    margin-bottom: 24px;
+}
+
+.btn-compact {
+    padding: 19px 40px;
+    border-radius: 100px;
+    background-color: #299764;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 16px;
+}
+
+.btn-sports {
+    padding: 19px 40px;
+    border-radius: 100px;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    border: 1px solid #333333;
+    margin-right: 16px;
+}
+
+.btn-vans {
+    padding: 19px 40px;
+    border-radius: 100px;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    border: 1px solid #333333;
+}
+
+
+.inamarka {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 160px;
+}
+
+.ford {
+    background-color: #272727;
+    border-radius: 16px;
+    width: 386px;
+    height: 433px;
+}
+
+.model {
+    font-size: 24px;
+    line-height: 29.26px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 24px;
+
+}
+
+.nik {
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 24px;
+}
+
+.avto {
+    margin-top: 16px;
+}
+
+.icom {}
+
+.details {
+
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.details span {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.btn-view {
+    padding: 19px 40px;
+    border-radius: 100px;
+    background-color: #299764;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 16px;
+    margin-left: 514px;
+    margin-top: 40px;
+}
+
+.google {
+    background-color: #272727;
+    max-width: fit-content;
+}
+
+.gmail {
+    display: flex;
+    text-align: left;
+}
+
+.google-title {
+    background-color: #1C1C1C;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 70px 80px 70px 70px;
+    width: 100%;
+}
+
+.google-title span {
+    color: #4285F4;
+    padding-top: 100px;
+}
+
+.google-h2 {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.google-p {
+    font-size: 14px;
+    padding-top: 30px;
+    margin-right: -100px;
+}
+
+.tizq {
+    width: 330px;
+  border: 1px solid #EA4335; border: 2px solid;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue) 1;
+
+}
+
+.instagram {
+    font-size: 18px;
+    padding: 18px 50px;
+    border-radius: 100px;
+    border: 1px solid #F9ED32;
+    margin-top: 16px;
+}
+
+.instagram a {
+    color: #EE2A7B;
+}
+
+.google-card {
+    background-color: #299764;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+.com {
+    background-color: #1C1C1C;
+    border-radius: 16px;
+    width: 420px;
+    height: 333px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-left: 24px;
+}
+
+.nom {
+    display: flex;
+    padding-top: 24px;
+}
+
+.ava {
+    
+}
+
+.nikc {
+    font-size: 16px;
+    line-height: 19.5px;
+    padding-bottom: 5px;
+}
+
+.qosh {
+    display: flex;
+}
+
+.gmail-com {
+    font-size: 14px;
+    line-height: 17.07px;
+}
+
+.true {
+    padding-right: 66px;
+    padding-left: 12px;
+}
+
+.malumot {
+    padding-top: 14px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.tiziq {
+    margin-top: 25px;
+    margin-bottom: 24px;
+    border: 1.5px solid #333333;
+    margin-right: 24px;
+}
+
+.rating {
+    padding-right: 16px;
+}
+
+.cardes {
+    background-color: #1C1C1C;
+    border-radius: 16px;
+    width: 420px;
+    height: 333px;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding-left: 24px;
+}
+
+.yulduz {}
+
+.google-cards {
+    background-color: #299764;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ronald {
+    display: flex;
+    padding-top: 24px;
+}
+
+.run {
+    padding-left: 12px;  
+}
+
+.gmail-com1 {
+    
+}
+
+.tiziqq {
+    margin-top: 100px;
+    margin-bottom: 24px;
+    border: 1.5px solid #333333;
+    margin-right: 24px;
+}
+
+.more {
+    margin-bottom: 34px;
+    padding-left: 80px;
+}
+
+.brend {
+    text-align: left;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    margin-left: 100px
+}
+
+.brend-mobile img {
+    padding-left: 66px;
+}
+
+
+
+
+.book {
+}
+.muqova {
+}
+.sarlavha {
+    text-align: center;
+}
+
+.sarlavha h3 {
+    font-size: 32px;
+    line-height: 39.1px;
+    padding-bottom: 10px;
+}
+
+.sarlavha p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    display: flex;
+    margin-left: 250px;
+
+}
+
+.tetrad {
+    background-color: #272727;
+    border-radius: 20px;
+    text-align: left;
+    width: 590px;
+    padding: 40px 32px;
+}
+
+.tetrad h3 {
+    font-size: 32px;
+    line-height: 39px;
+    padding-right: 247px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.tetrad p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ha {
+    display: flex;
+}
+
+.yoq {
+    display: flex;
+    margin-bottom: 160px;
+}
+
+.uzb {
+    margin-right: 20px;
+    
+}
+
+.rus {
+}
+
+
+
+.title {
+    display: flex;
+    text-align: left;
+    background-color: #1C1C1C;
+    border: 1.5px solid #333333;
+    border-radius: 20px;
+    width: 1200px;
+}
+.card-title {
+}
+
+.card-title h2 {
+    font-size: 36px;
+    line-height: 43.88px;
+    padding-bottom: 10px;
+    margin-top: 40px
+}
+
+.card-title p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 94px;
+    padding-top: 29px;
+}
+
+.car-title {
+}
+
+.barcha-title {
+    display: flex;
+}
+
+.img-title {
+    width: 200px;
+    height: 160px;
+    background-color: #272727;
+    padding: 20px;
+    gap: 10px;
+    margin-left: 10px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.img-title img {
+    margin-left:145px;
+}
+
+.aka-title {
+    margin-left: 92px;
+    margin-top: 50px;
+    background-image: url("../images/Ellipse\ 125.png");
+    background-repeat: no-repeat;
+}
+
+
+.bordr {
+    border: 1px solid #333333;
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+
+
+
+/* MAIN END */
+
+/* FOOTER START */
+
+footer {
+    background: #111;
+    padding: 40px 20px;
+    color: white;
+}
+
+.figma {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 span {
+    font-style: italic;
+    color: #23a455;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #23a455;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #23a455;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* FOOTER END */
