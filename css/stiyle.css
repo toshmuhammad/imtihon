@@ -30,13 +30,23 @@
     src: url('../fonts/montserrat-v29-latin-700.woff2') format('woff2');
 }
 
-
+.darkimgw{
+    cursor: pointer;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body.light-mode{
+    background-color: #ffffff;
+}
+body.light-mode h3{
+    color: #000000;
+}
+body.light-mode a{
+    color: #000000;
+}
 html {
     height: 100%;
 }
@@ -114,7 +124,7 @@ main {
 }
 
 .dark-mode {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 24px;
     padding-right: 16px;
 }
@@ -126,6 +136,11 @@ main {
     background-color: #299764;
     color: #fff;
     border: none;
+}
+
+.btn h4 {
+    padding-top: 3px;
+    margin-right: 8px;
 }
 
 .chiziq {
@@ -165,12 +180,20 @@ main {
     line-height: 19.5px;
 }
 
+.carousel {
+    margin-bottom: 54px;
+}
+
 .input {
     width: 600px;
     padding: 22px;
     border-radius: 100px;
     border: none;
     margin-top: 328px;
+}
+
+.corch {
+    /* margin-right: 50px; */
 }
 
 .input::placeholder {
@@ -184,9 +207,6 @@ main {
     margin-top: 100px;
 }
 
-.car-mini {}
-
-.only {}
 
 .only h2 {
     font-size: 36px;
@@ -202,6 +222,14 @@ main {
 
 .btn-lorem {
     margin-bottom: 24px;
+}
+
+.btn-sports:focus {
+    background-color: #299764;
+}
+
+.btn-vans:focus {
+    background-color: #299764;
 }
 
 .btn-compact {
@@ -369,9 +397,6 @@ main {
     padding-top: 24px;
 }
 
-.ava {
-    
-}
 
 .nikc {
     font-size: 16px;
@@ -598,76 +623,15 @@ main {
 
 /* FOOTER START */
 
-footer {
-    background: #111;
-    padding: 40px 20px;
-    color: white;
+.footer {
 }
-
-.figma {
+.footer-li {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
+    color: #fff;
 }
-
-.footer-section {
-    width: 22%;
-    margin-bottom: 20px;
+.footer-image {
 }
-
-.footer-section h2 span {
-    font-style: italic;
-    color: #23a455;
-}
-
-.footer-section h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #ddd;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 8px;
-}
-
-.footer-section ul li a {
-    color: #ccc;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-section ul li a:hover {
-    color: #23a455;
-}
-
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons img {
-    width: 24px;
-    height: 24px;
-}
-
-.scroll-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #23a455;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 50%;
+.footer-ul {
 }
 
 /* FOOTER END */
